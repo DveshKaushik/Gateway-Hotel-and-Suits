@@ -1,20 +1,5 @@
 # Gateway Hotel & Suites
 
-Static marketing website for **Gateway Hotel & Suites** in Clarenville, Newfoundland & Labrador. Built with Next.js and designed to showcase accommodations, local attractions, photo gallery, and contact information.
-
-**Live contact details**
-
-- **Address:** [262 Memorial Drive, Clarenville, NL](https://maps.app.goo.gl/mXSFK8QLTzZ8bR7ZA?g_st=iw)
-- **Phone:** +1 (709) 979-0669
-- **Email:** guestservices@gatewayhotelclarenville.com
-
-## Tech stack
-
-- [Next.js 15](https://nextjs.org/) (App Router)
-- [React 19](https://react.dev/)
-- CSS (no UI framework)
-- Google Fonts via `next/font`
-
 ## Features
 
 - Responsive single-page layout with smooth section navigation
@@ -81,11 +66,11 @@ Most site text and contact details live in **`src/data/content.js`**.
 
 | What to change        | Where                          |
 |-----------------------|--------------------------------|
-| Hotel name, phone, email, map link | `src/data/content.js` ’ `hotel` |
-| About section copy    | `src/data/content.js` ’ `intro` |
-| Room descriptions     | `src/data/content.js` ’ `accommodations` |
-| Local attractions     | `src/data/content.js` ’ `attractions` |
-| Page title & SEO      | `src/app/layout.js` ’ `metadata` |
+| Hotel name, phone, email, map link | `src/data/content.js` â€™ `hotel` |
+| About section copy    | `src/data/content.js` â€™ `intro` |
+| Room descriptions     | `src/data/content.js` â€™ `accommodations` |
+| Local attractions     | `src/data/content.js` â€™ `attractions` |
+| Page title & SEO      | `src/app/layout.js` â€™ `metadata` |
 
 ### Images
 
