@@ -1,5 +1,31 @@
 # Gateway Hotel & Suites
 
+## Features
+
+- Responsive single-page layout with smooth section navigation
+- Hero, about, rooms & suites, photo gallery, local attractions, and contact sections
+- Filterable photo gallery (32 hotel images)
+- Mobile-friendly navigation with slide-out menu
+- Optimized hero image via `next/image`
+- SEO metadata in root layout
+
+## Project structure
+
+```
+src/
+  app/
+    layout.js       # Root layout, fonts, metadata
+    page.js         # Home page
+    globals.css     # Global styles
+  components/       # UI sections (Header, Hero, Gallery, etc.)
+  data/
+    content.js      # Hotel copy, contact info, attractions
+    images.js       # Image paths and gallery data
+public/
+  images/           # Hotel photos (hotel-01.png & hotel-32.png)
+  favicon.svg
+```
+
 ## Getting started
 
 ### Prerequisites
@@ -40,11 +66,11 @@ Most site text and contact details live in **`src/data/content.js`**.
 
 | What to change        | Where                          |
 |-----------------------|--------------------------------|
-| Hotel name, phone, email, map link | `src/data/content.js`   `hotel` |
-| About section copy    | `src/data/content.js`   `intro` |
-| Room descriptions     | `src/data/content.js`   `accommodations` |
-| Local attractions     | `src/data/content.js`   `attractions` |
-| Page title & SEO      | `src/app/layout.js`   `metadata` |
+| Hotel name, phone, email, map link | `src/data/content.js` ’ `hotel` |
+| About section copy    | `src/data/content.js` ’ `intro` |
+| Room descriptions     | `src/data/content.js` ’ `accommodations` |
+| Local attractions     | `src/data/content.js` ’ `attractions` |
+| Page title & SEO      | `src/app/layout.js` ’ `metadata` |
 
 ### Images
 
