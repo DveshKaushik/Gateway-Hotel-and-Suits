@@ -90,3 +90,11 @@ For a fully static export (no Node server), add `output: 'export'` to `next.conf
 ## Browser extensions
 
 If you see a hydration warning in development mentioning extra attributes on `<body>` (e.g. `data-gr-ext-installed`), it is usually caused by browser extensions such as Grammarly. The root layout uses `suppressHydrationWarning` on `<html>` and `<body>` to handle this.
+
+
+
+
+
+## Deployed On Firebase
+
+https://gateway-hotel-and-suits.web.app/
