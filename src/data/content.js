@@ -7,7 +7,7 @@ export const hotel = {
   region: 'Hub of the East Coast',
   phone: '+1 (709) 979-0669',
   phoneHref: 'tel:+17099790669',
-  email: 'guestservices@gatewayhotelclarenville.com',
+  email: 'welcome@gatewayhotelclalrenville.com',
   mapUrl: 'https://maps.app.goo.gl/mXSFK8QLTzZ8bR7ZA?g_st=iw',
 }
 
